@@ -1,0 +1,413 @@
+2018-06-17 18:42:19.154 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='DELETE' uri='https://httpbin.org/status/100'
+2018-06-17 18:42:19.177 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:22.157 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='DELETE' uri='https://httpbin.org/status/200'
+2018-06-17 18:42:22.158 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:23.796 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 200 OK'
+2018-06-17 18:42:23.797 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:22 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:23.803 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:23.910 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='DELETE' uri='https://httpbin.org/status/300'
+2018-06-17 18:42:23.911 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:24.603 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 300 MULTIPLE CHOICES'
+2018-06-17 18:42:24.604 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:24 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:24.605 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:24.620 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='DELETE' uri='https://httpbin.org/status/400'
+2018-06-17 18:42:24.620 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:25.310 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 400 BAD REQUEST'
+2018-06-17 18:42:25.310 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:25 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:25.312 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:25.320 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='DELETE' uri='https://httpbin.org/status/500'
+2018-06-17 18:42:25.320 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:26.005 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 500 INTERNAL SERVER ERROR'
+2018-06-17 18:42:26.008 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:25 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:26.009 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:26.026 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='GET' uri='https://httpbin.org/status/100'
+2018-06-17 18:42:26.028 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:26.727 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='GET' uri='https://httpbin.org/status/200'
+2018-06-17 18:42:26.728 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:27.408 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 200 OK'
+2018-06-17 18:42:27.409 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:27 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:27.411 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:27.422 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='GET' uri='https://httpbin.org/status/300'
+2018-06-17 18:42:27.423 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:28.108 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 300 MULTIPLE CHOICES'
+2018-06-17 18:42:28.113 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:28 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:28.114 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:28.126 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='GET' uri='https://httpbin.org/status/400'
+2018-06-17 18:42:28.127 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:28.814 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 400 BAD REQUEST'
+2018-06-17 18:42:28.815 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:28 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:28.816 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:28.829 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='GET' uri='https://httpbin.org/status/500'
+2018-06-17 18:42:28.829 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:29.516 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 500 INTERNAL SERVER ERROR'
+2018-06-17 18:42:29.516 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:29 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:29.517 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:29.526 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='PATCH' uri='https://httpbin.org/status/100'
+2018-06-17 18:42:29.527 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:30.224 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='PATCH' uri='https://httpbin.org/status/200'
+2018-06-17 18:42:30.225 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:30.905 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 200 OK'
+2018-06-17 18:42:30.906 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:30 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:30.907 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:30.914 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='PATCH' uri='https://httpbin.org/status/300'
+2018-06-17 18:42:30.914 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:31.592 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 300 MULTIPLE CHOICES'
+2018-06-17 18:42:31.592 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:31 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:31.593 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:31.608 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='PATCH' uri='https://httpbin.org/status/400'
+2018-06-17 18:42:31.609 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:32.286 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 400 BAD REQUEST'
+2018-06-17 18:42:32.287 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:32 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:32.288 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:32.298 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='PATCH' uri='https://httpbin.org/status/500'
+2018-06-17 18:42:32.299 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:32.998 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 500 INTERNAL SERVER ERROR'
+2018-06-17 18:42:32.999 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:32 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:33.000 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:33.023 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='POST' uri='https://httpbin.org/status/100'
+2018-06-17 18:42:33.024 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*
+Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1]
+2018-06-17 18:42:33.765 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='POST' uri='https://httpbin.org/status/200'
+2018-06-17 18:42:33.765 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*
+Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1]
+2018-06-17 18:42:34.453 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 200 OK'
+2018-06-17 18:42:34.454 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:34 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:34.455 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:34.462 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='POST' uri='https://httpbin.org/status/300'
+2018-06-17 18:42:34.463 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*
+Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1]
+2018-06-17 18:42:35.140 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 300 MULTIPLE CHOICES'
+2018-06-17 18:42:35.141 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:35 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:35.142 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:35.154 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='POST' uri='https://httpbin.org/status/400'
+2018-06-17 18:42:35.154 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*
+Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1]
+2018-06-17 18:42:35.847 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 400 BAD REQUEST'
+2018-06-17 18:42:35.849 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:35 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:35.850 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:35.858 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='POST' uri='https://httpbin.org/status/500'
+2018-06-17 18:42:35.859 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*
+Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1]
+2018-06-17 18:42:36.548 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 500 INTERNAL SERVER ERROR'
+2018-06-17 18:42:36.548 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:36 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:36.549 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:36.558 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='PUT' uri='https://httpbin.org/status/100'
+2018-06-17 18:42:36.559 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:37.243 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='PUT' uri='https://httpbin.org/status/200'
+2018-06-17 18:42:37.244 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:37.921 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 200 OK'
+2018-06-17 18:42:37.922 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:37 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:37.923 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:37.931 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='PUT' uri='https://httpbin.org/status/300'
+2018-06-17 18:42:37.932 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:38.609 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 300 MULTIPLE CHOICES'
+2018-06-17 18:42:38.610 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:38 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:38.612 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:38.623 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='PUT' uri='https://httpbin.org/status/400'
+2018-06-17 18:42:38.624 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:39.310 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 400 BAD REQUEST'
+2018-06-17 18:42:39.310 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:39 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:39.312 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:39.322 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='PUT' uri='https://httpbin.org/status/500'
+2018-06-17 18:42:39.323 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:39.996 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 500 INTERNAL SERVER ERROR'
+2018-06-17 18:42:39.997 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:39 GMT
+Content-Type=text/html; charset=utf-8
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Content-Length=0
+Via=1.1 vegur]
+2018-06-17 18:42:39.998 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+]
+2018-06-17 18:42:40.008 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='GET' uri='https://httpbin.org/redirect/11'
+2018-06-17 18:42:40.008 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:41.980 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='GET' uri='https://httpbin.org/redirect/11'
+2018-06-17 18:42:41.981 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:44.178 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 200 OK'
+2018-06-17 18:42:44.180 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:43 GMT
+Content-Type=application/json
+Content-Length=227
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Via=1.1 vegur]
+2018-06-17 18:42:44.350 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+{
+  "args": {},
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip,deflate",
+    "Connection": "close",
+    "Host": "httpbin.org",
+    "User-Agent": "Apache-HttpClient/4.5.3 (Java/1.8.0_171)"
+  },
+  "origin": "217.78.182.34",
+  "url": "https://httpbin.org/get"
+}]
+2018-06-17 18:42:44.369 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='GET' uri='https://httpbin.org/headers'
+2018-06-17 18:42:44.370 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:45.057 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 200 OK'
+2018-06-17 18:42:45.058 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:45 GMT
+Content-Type=application/json
+Content-Length=160
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Via=1.1 vegur]
+2018-06-17 18:42:45.059 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+{
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip,deflate",
+    "Connection": "close",
+    "Host": "httpbin.org",
+    "User-Agent": "Apache-HttpClient/4.5.3 (Java/1.8.0_171)"
+  }
+}]
+2018-06-17 18:42:46.384 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='GET' uri='https://httpbin.org/response-headers?freeform=testResponseInspectionGet'
+2018-06-17 18:42:46.386 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*]
+2018-06-17 18:42:47.078 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 200 OK'
+2018-06-17 18:42:47.079 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:47 GMT
+Content-Type=application/json
+Content-Length=97
+Freeform=testResponseInspectionGet
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Via=1.1 vegur]
+2018-06-17 18:42:47.079 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+{
+  "Content-Length": "97",
+  "Content-Type": "application/json",
+  "freeform": "testResponseInspectionGet"
+}]
+2018-06-17 18:42:47.141 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : REQUEST method='POST' uri='https://httpbin.org/response-headers?freeform=testResponseInspectionPost'
+2018-06-17 18:42:47.142 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Accept=*/*
+Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1]
+2018-06-17 18:42:47.830 DEBUG [           main] r.t.a.Log4jRestAssuredFilter : RESPONSE status='HTTP/1.1 200 OK'
+2018-06-17 18:42:47.831 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     HEADERS=[
+Connection=keep-alive
+Server=gunicorn/19.8.1
+Date=Sun, 17 Jun 2018 15:42:47 GMT
+Content-Type=application/json
+Content-Length=98
+Freeform=testResponseInspectionPost
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Credentials=true
+Via=1.1 vegur]
+2018-06-17 18:42:47.832 TRACE [           main] r.t.a.Log4jRestAssuredFilter :     BODY=[
+{
+  "Content-Length": "98",
+  "Content-Type": "application/json",
+  "freeform": "testResponseInspectionPost"
+}]

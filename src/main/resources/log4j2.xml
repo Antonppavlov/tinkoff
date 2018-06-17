@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorinterval="30" status="info" strict="true">
+    <Properties>
+        <Property name="filename">logs/test.log</Property>
+        <Property name="logLevelPattern">%5p</Property>
+        <Property name="logExceptoinConvertionWord">%xwEx</Property>
+        <Property name="logPatternConsole">%d{yyyy-MM-dd HH:mm:ss.SSS} ${logLevelPattern} [%15.15t] %C{1.} : %m%n
+        </Property>
+    </Properties>
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="${logPatternConsole}"/>
+        </Console>
+        <File name="File" fileName="${filename}">
+            <PatternLayout pattern="${logPatternConsole}"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="info" additivity="false">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="File"/>
+        </Root>
+        <Logger name="ru.tkhozyaykina" level="error" additivity="false">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+        <Logger name="ru.tkhozyaykina" level="warn" additivity="false">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+        <Logger name="ru.tkhozyaykina" level="debug" additivity="false">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+        <Logger name="ru.tkhozyaykina" level="trace" additivity="false">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+    </Loggers>
+</Configuration>
