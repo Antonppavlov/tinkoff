@@ -1,6 +1,6 @@
 # Test 'httpbin.org'
 
-Проект для тестирования сервиса: 'httpbin.org' https://httpbin.org/#/Redirects/get_redirect__n_
+Проект тестирования сервиса: https://httpbin.org/
 
 # Запуск:
 mvn clean test io.qameta.allure:allure-maven:serve
